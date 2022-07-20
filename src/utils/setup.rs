@@ -28,6 +28,7 @@ pub(crate) struct Context {
 }
 
 impl Context {
+  fn new(args: Args) -> Self { Self { s: "".into(), args } }
 }
 
 /// A template function to validate a Context argument
