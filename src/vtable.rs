@@ -87,3 +87,4 @@ fn get_display_trait_object() -> BoxedDisplay {
   // BoxedDisplay::new("c".to_string())
   BoxedDisplay::new(true)
 }
+
