@@ -9,6 +9,7 @@ use clap::Parser;
 use utils::MyError;
 use validator::{Validate, ValidationError};
 
+mod vtable;
 #[cfg(test)] mod tests;
 mod utils;
 fn main() -> Result<()> {
