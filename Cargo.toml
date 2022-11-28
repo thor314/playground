@@ -44,7 +44,7 @@ criterion = "0.4"
 iai = "0.1"       # criterion alternative
 # Testing utils
 test-log = "0.2"                                       # log/tracing independent test-log consumer
-rstest = "0.15"
+rstest = "0.16"
 quickcheck = "1.0"
 quickcheck_macros = "1"                                # derive 
 arbitrary = { version = "1.1", features = ["derive"] }
